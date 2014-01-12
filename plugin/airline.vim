@@ -298,3 +298,33 @@ endif
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
+
+
+
+" OBI CODE
+" function! s:airline_off_obi()
+"   if exists("#airline")
+"     augroup airline
+"       au!
+"     augroup END
+"     augroup! airline
+" 
+"     if exists("s:stl")
+"       let &stl = s:stl
+"     endif
+" 
+"     silent doautocmd User AirlineToggledOff
+"   endif
+"   set laststatus=0
+" endfunction
+" 
+" 
+" command! -nargs=? -complete=customlist,<sid>get_airline_themes AirlineTheme call <sid>airline_theme(<f-args>)
+" command! AirlineToggleWhitespace call airline#extensions#whitespace#toggle()
+" command! AirlineToggle call <sid>airline_toggle()
+" command! AirlineOff    call <sid>airline_off_obi()
+" command! AirlineRefresh call airline#load_theme()
+
+
+
+
