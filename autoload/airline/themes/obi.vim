@@ -81,7 +81,7 @@ function! airline#themes#obi#refresh()
   let s:RF = s:NF
 
   " Inactive
-  let s:IA = [s:red, s:blue, '']
+  let s:IA = [s:grey, s:blue, '']
 
   """"""""""""""""""""""""""""""""""""""""""""""""
   " Actual mappings
